@@ -19,14 +19,14 @@
 
         <nav class="nav">
           <ul class="site-nav list">
-            <li class="list-item">
-              <a class="link current" href="./index.html">Студія</a>
+            <li class="list-item navigation-item">
+              <a class="link current current-page" href="./index.html">Студія</a>
             </li>
-            <li class="list-item">
-              <a class="link" href="./portfolio.html">Портфоліо</a>
+            <li class="list-item navigation-item">
+              <a class="link " href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="list-item">
-              <a class="link" href="#">Контакти</a>
+            <li class="list-item navigation-item">
+              <a class="link " href="#">Контакти</a>
             </li>
           </ul>
         </nav>
@@ -64,7 +64,7 @@
             <br />
             вашого бізнесу
           </h1>
-          <button class="button" type="button">Замовити послугу</button>
+          <button class="button" type="button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
 
@@ -461,5 +461,16 @@
     
     </div>
     </footer>
+
+    <div class="backdrop is-hidden"  data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-button" data-modal-close>
+          <svg class="modal-close-icon">
+            <use class="close-icon" href="./images/icons.svg#icon-close-btn"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
