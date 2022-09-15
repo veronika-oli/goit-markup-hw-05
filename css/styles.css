@@ -606,7 +606,7 @@ calc ((100% - кол-во маржинов в строке * значение м
     height: 44px;
     border-radius: 50%;
     color: var(--icon-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-icon {
@@ -634,7 +634,7 @@ calc ((100% - кол-во маржинов в строке * значение м
     border-radius: 4px;
     background-color: var(--common-white);
     color: var(--icon-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), boarder 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-title {
